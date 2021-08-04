@@ -5,47 +5,62 @@
   padding:0px;
  margin: 0px;
 }
-body{
-  padding: 50px 0px;
+header{
+  padding: 20px 50px;
 }
-.phrase-introductive{
- /* font-size: 15px;*/
-  /*margin-left: 20px;*/
-  margin-right: 20px;
-}
+
 /*h2,p{
   font-size: 10px;
 }*/
 .nav-group {
   width: 100%;
   color: #0065fc;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   display:flex;
   /*margin-left: 20px;*/
-  margin-right: 20px;
+ /* margin-right: 20px;*/
+  margin-bottom: 20px;
+  height: 80px; /*ajout 31*/
+  border:1px #0d0f13 solid;
 }
 .group-un{
      width:50%;
-     margin-top: -80px;
+     /*margin-top: -10px;ajout 31*/
+     border:1px #104abd solid;
+    /* height: 80px;*/
+}
+.logo{
+  width: 25%;
+  height: 80px;
 }
 nav{
   width:50%;
+  border:1px #970a68 solid;
+  padding:0px 20px;
+  margin:20px 20px; 
 }
-nav .links{
+ .links{
+ /* width: 50%;*/
   display: flex;
  justify-content: flex-end;
- text-align: justify;
- /* margin-top: 10px;*/
-
+ /*text-align: justify;*/
+  padding: 0px 50px;
+ border:1px #cddb0c solid;
  
 }
 .element{
   color: #0d0f13;
   margin-right:30px;
+  /*margin-left: 30px;*/
+  border:1px #0cdb4a solid;
 
+  
 }
 .element-inscrire{
   color: #0065fc;
+  margin-right: 0px;
+ /* margin-left: 30px;*/
+ border:1px #0cdb4a solid;
 }
 .element:hover{
   color:  #0065fc ;
@@ -54,7 +69,11 @@ nav .links{
   border-top: 1px solid #0065fc;
   padding-top:30px;
 }
-
+.phrase-introductive{
+  /* font-size: 15px;*/
+   /*margin-left: 20px;*/
+   margin-right: 20px;
+ }
 /*Pour les button*/
 .container {
   /*margin-left: 20px;*/
@@ -178,51 +197,61 @@ nav .links{
   text-align: center;
   font-size: 10px;
 }
+section,.second-section {
+  padding: 20px 50px;
+}
 .first-section{
   display: flex;
   width:100%;
- /* margin-left: 20px;*/
-  margin-right: 20px;
+ /* margin-right: 20px;*/
 }
 .hebergement-marseille{
-  padding: 20px 0px 20px 20px;
+  padding: 30px 20px 0px 30px;
   background-color: #f2f2f2;
   width: 70%;
   border-radius: 20px;
-  margin: 25px 50px 20px 0px; 
-  height: 500px;
+  margin: 0px 50px 0px 0px; 
+ /* height: 480px;*/
+  height:650px ;
 }
 .premiere-line-hebergement{
   display: flex;
-  /*margin-right: 25px;*/
- 
+ margin-bottom: 20px;
+  padding-top: 20px;
+
+  width: 100%;
 }
+
 .deuxieme-line-hebergement{
   display: flex;
 }
 .card{
   background-color:#fff;
-  width: 180px;
-  margin:20px;
+ /* width: 180px;*/
+  margin:0px 20px 0px 0px;
  padding:5px;
   border-radius:15px; 
   font-size:10px;
-  height:160px;
+ /* height:160px;*/
+ height: 250px; ;
+  width: 100%;
 }
 
 .card-image-container{
-  height:100px;
+  /*height:100px*/
+  height:200px;
   width:100%;  
  /* background-color:red ; */
 }
 
 .card-image{
-  height:100px;
-  width: 180px;
+  height:180px;
+ /* width: 180px;*/
   border-radius: 10px 10px 0px 0px;
  object-fit:cover;
   /*padding-left: 3px;
   padding-right:3px;*/
+  width: 100%;
 }
 .heading{
   padding-top: 10px;
@@ -244,7 +273,7 @@ nav .links{
 .second-line>*{
   background-color: #ffff;
   border-radius: 20px;
-  width: 30%;
+  /*width: 30%;*/
   font-size: 10px;
 }
 .Afficher{
@@ -257,30 +286,37 @@ nav .links{
 }
 /*  POUR LE 2ieme BLOCK "LES PLUS POPULAIRES*/
 .block-two{
-  height: 500px;
+  /*height: 480px;*/
+  height: 630px;
   background-color: #f2f2f2;
-  padding: 20px 0px 20px 20px;
-  margin: 25px 50px 20px 0px;
+  padding: 30px 20px 20px 20px;
+ /* margin: 0px 50px 20px 0px;*/
   border-radius: 20px;
   width: 30%;
+}
+.container-pour-3{
+ padding-top: 0px;
 }
 .les-plus-populaires-item{
   display: flex;
   background-color:#ffff;
-  width: 218px;
-  margin:20px ;
+ /* width: 218px;*/
+ width: 80%;
+  margin-top:50px ;
+  margin-bottom: 50px;
  padding:5px 0px 5px 5px;
   border-radius:15px; 
   font-size:10px;
-  height:100px;
+ /* height:100px;*/
 } 
 .les-plus-populaires-img{
-  height:100px;
-  width: 100px; 
+ /* height:100px;
+  width: 100px; */
+  width: 50%;
 }
 .les-plus-populaires{
   height:100px;
-  width: 100px;
+  width: 100%;
   object-fit: cover;
   border-radius: 10px 0px 0px 5px;
 }
@@ -299,7 +335,7 @@ nav .links{
   height: 50px;
   width: 50%;
   border: #ffff;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 /*POUR LE DEUXIEME MAIN*/
 /*.second-main{
@@ -326,10 +362,9 @@ nav .links{
  
 }*/
 .second-section{
-  width: 100%;
-  padding-top:20px;
+  /*width: 100%;*/
   flex-direction: column;
-  margin-bottom: 0px;
+  /*margin-bottom: 50px;*/
 }
 .activite{
   width: 100%;
@@ -337,24 +372,19 @@ nav .links{
 .second-section-group{
  display: flex;
  justify-content: space-between;
- padding: 0px 0px 0px 0px;
+ padding: 20px 0px 0px 0px;
  width:100%;
 
 }
-/*.article{
-  width: 50%; 
-  margin-top: 30px; 
- display: flex;
-  padding: 20px 0px 0px 0px;
-  margin-right: 0px;
-} */
+
 .second-section-images{
-  width: 250px;
+ /* width: 250px;*/
+  width: 17%;
   height: 350px;
  background-color:#ffff;
  border-radius: 0px 0px 15px 15px; 
  box-shadow: 0px 5px 5px rgb(176, 176, 177);
- margin-right: 50px;
+ /*margin-right: 50px;*/
 
 }
 .premier-aside{
@@ -362,7 +392,8 @@ nav .links{
 }
 .img-article{
   height: 300px;
-    width: 250px;
+   /* width: 250px;*/
+    width: 100%;
     border-radius:10px 10px 0px 0px; 
     object-fit: cover;
 }
@@ -370,15 +401,17 @@ nav .links{
   background-color: #ffff;
   border-radius:15px; 
   box-shadow: 0px 5px 5px rgb(176, 176, 177);
-  width: 250px;
+  /*width: 250px;*/
+  width:100% ;
   margin-bottom:50px;
+  
  padding:0px;
   border-radius:15px; 
   height:150px;
 }
 .img-aside{
   height:110px;
-  width: 250px;
+  width: 300px;
   border-radius: 10px 10px 0px 0px;
  object-fit:cover;
 }
@@ -388,14 +421,14 @@ nav .links{
 }
 
  .footer{
-   width: 100%;
+  /* width: 100%;*/
    background-color: #f2f2f2;
    padding: 50px;
    display:flex ;
    margin: 0px;
  }
  .footer >*{
-   width: 25%;
+   width: 50%;
    margin-right: 50px;
    line-height: 30px; 
    font-family:"Raleway", sans-serif ;
