@@ -208,11 +208,11 @@ section,.second-section {
 .hebergement-marseille{
   padding: 30px 20px 0px 30px;
   background-color: #f2f2f2;
-  width: 70%;
+  width: 75%;
   border-radius: 20px;
   margin: 0px 50px 0px 0px; 
  /* height: 480px;*/
-  height:650px ;
+  height:695px ;
 }
 .premiere-line-hebergement{
   display: flex;
@@ -233,7 +233,7 @@ section,.second-section {
   border-radius:15px; 
   font-size:10px;
  /* height:160px;*/
- height: 250px; ;
+ height: 260px; ;
   width: 100%;
 }
 
@@ -245,8 +245,8 @@ section,.second-section {
 }
 
 .card-image{
-  height:180px;
- /* width: 180px;*/
+  height:100%;
+ width: 100%;
   border-radius: 10px 10px 0px 0px;
  object-fit:cover;
   /*padding-left: 3px;
@@ -287,13 +287,20 @@ section,.second-section {
 /*  POUR LE 2ieme BLOCK "LES PLUS POPULAIRES*/
 .block-two{
   /*height: 480px;*/
-  height: 630px;
+  height: 675px;
   background-color: #f2f2f2;
   padding: 30px 20px 20px 20px;
  /* margin: 0px 50px 20px 0px;*/
   border-radius: 20px;
-  width: 30%;
+  width: 25%;
 }
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+
+  
+
 .container-pour-3{
  padding-top: 0px;
 }
@@ -301,33 +308,32 @@ section,.second-section {
   display: flex;
   background-color:#ffff;
  /* width: 218px;*/
- width: 80%;
+ width: 100%;
   margin-top:50px ;
   margin-bottom: 50px;
  padding:5px 0px 5px 5px;
   border-radius:15px; 
   font-size:10px;
- /* height:100px;*/
+  height:150px;
 } 
 .les-plus-populaires-img{
- /* height:100px;
-  width: 100px; */
+  height:100%;
   width: 50%;
 }
 .les-plus-populaires{
-  height:100px;
+  height:100%;
   width: 100%;
   object-fit: cover;
   border-radius: 10px 0px 0px 5px;
 }
 .les-plus-populaires-details{
-  padding:10px 0px 0px 10px ;
+  padding:25px 50px 0px 20px ;
 }
 .h4,.p4{
   line-height: 15px;
 }
 .les-plus-populaires-star-icons{
-  padding: 25px 0px 0px 0px;
+  padding: 63px 0px 0px 0px;
   color: #0065fc;
 }
  
@@ -362,56 +368,54 @@ section,.second-section {
  
 }*/
 .second-section{
-  /*width: 100%;*/
-  flex-direction: column;
-  /*margin-bottom: 50px;*/
+/*width: ;*/
 }
 .activite{
   width: 100%;
 }
 .second-section-group{
- display: flex;
- justify-content: space-between;
- padding: 20px 0px 0px 0px;
- width:100%;
-
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 2px;
+ width: 100%;
 }
 
 .second-section-images{
- /* width: 250px;*/
-  width: 17%;
-  height: 350px;
+width:50%;
+  height: 400px;
  background-color:#ffff;
  border-radius: 0px 0px 15px 15px; 
  box-shadow: 0px 5px 5px rgb(176, 176, 177);
- /*margin-right: 50px;*/
-
 }
-.premier-aside{
-  margin-right: 50px;
+
+.container-img-article{
+ height: 360px ;
+  width: 100%; 
 }
 .img-article{
-  height: 300px;
-   /* width: 250px;*/
+    height: 100%; 
     width: 100%;
     border-radius:10px 10px 0px 0px; 
     object-fit: cover;
 }
+.container-img-aside{
+  height: 90px ;
+  width: 100%;
+}
+
 .aside{
   background-color: #ffff;
   border-radius:15px; 
   box-shadow: 0px 5px 5px rgb(176, 176, 177);
-  /*width: 250px;*/
-  width:100% ;
   margin-bottom:50px;
-  
  padding:0px;
   border-radius:15px; 
-  height:150px;
+  height:140px;
+  width: 50%;
 }
 .img-aside{
-  height:110px;
-  width: 300px;
+  height:100%;
+  width: 100%;
   border-radius: 10px 10px 0px 0px;
  object-fit:cover;
 }
