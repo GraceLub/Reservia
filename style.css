@@ -3,7 +3,8 @@
   text-decoration: none;
   list-style: none;
   padding:0px;
- margin: 0px;
+  margin: 0px;
+  box-sizing:border-box;
 }
 header{
   padding: 20px 100px;
@@ -243,7 +244,7 @@ section,.second-section {
 }
 .heading{
   padding: 10px 0px 0px 20px;
-  font-weight: bold;
+  font-weight: 500;
   font-size:20px ;
 }
 .hotel-prix{
