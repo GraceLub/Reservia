@@ -127,7 +127,11 @@ nav{
   border: 2px solid#DEEBFF ;
   margin-right: 25px;
 }
+.button:hover{
+cursor: pointer;
+border: 5px solid#DEEBFF ;
 
+}
 .wrapper-filtre .button .icon{
   color: #0065fc;
   background-color: #DEEBFF;
@@ -200,7 +204,6 @@ section,.second-section {
   display: flex;
  margin-bottom: 20px;
   padding-top: 20px;
-
   width: 100%;
 }
 
@@ -218,7 +221,10 @@ section,.second-section {
  height: 294px ;
   width: 100%;
 }
-
+.card:hover{
+  cursor: pointer;
+  border:5px solid #0065fc;
+}
 .card-image-container{
   /*height:100px*/
   height:200px;
@@ -261,7 +267,7 @@ section,.second-section {
 .second-line>*{
   background-color: #ffff;
   border-radius: 20px;
-  /*width: 30%;*/
+
   font-size: 10px;
 }
 .Afficher{
@@ -269,9 +275,6 @@ section,.second-section {
   font-size: 20px;
   padding:30px 30px 0px 0px;
   color:#0d0f13;
-}
-a:hover {
-
 }
 /*  POUR LE 2ieme BLOCK "LES PLUS POPULAIRES*/
 .block-two{
@@ -286,7 +289,6 @@ a:hover {
 .title{
   display: flex;
   justify-content: space-between;
- 
 }
 
 .container-pour-3{
@@ -295,7 +297,6 @@ a:hover {
 .les-plus-populaires-item{
   display: flex;
   background-color:#ffff;
- 
  width: 100%;
   margin-top:50px ;
   margin-bottom: 50px;
@@ -304,6 +305,9 @@ a:hover {
   font-size:10px;
   height:180px;
 } 
+.les-plus-populaires-item:hover{
+ border: 5px solid #0065fc;
+}
 .les-plus-populaires-img{
   height:100%;
   width: 50%;
@@ -350,7 +354,10 @@ a:hover {
  width: 100%;
  padding: 40px 0px;
 }
-
+.second-section-images:hover, .aside:hover, .aside2:hover{
+  border: 5px solid #0065fc;
+  cursor: pointer;
+}
 .second-section-images{
 width:100%;
   height: 590px;
@@ -372,7 +379,7 @@ width:100%;
 .premier-aside{
   display: grid;
     grid-template-rows: 3fr 2fr;
-    gap: 135px;
+    gap: 100px;
 }
 .container-img-aside{
   height: 200px ;
@@ -422,7 +429,7 @@ width:100%;
  .footer{
   /* width: 100%;*/
    background-color: #f2f2f2;
-   padding: 50px;
+   padding: 50px 0px 0px 100px;
    display:flex ;
    margin: 0px;
    font-size:20px; 
