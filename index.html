@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <title>hébergement</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/dd13a9151c.js" crossorigin="anonymous"></script>
@@ -19,9 +19,11 @@
              </div>
              <nav>
             <ul class="links">
-                <li><a href="#" class="element">Hébergement</li></a>
-                <li><a href="#" class="element">Activités</li></a>
-                <li><a href="#" class="element-inscrire">S'inscrire</li></a>
+                <div class="link1"> 
+                 <li><a href="#hebergement" class="nav-link">Hébergement</li></a>
+                 <li><a href="#activites-a-marseille" class="nav-link">Activités</li></a>
+               </div>
+                <li class="link2"><a href="#" class="nav-link-register">S'inscrire</li></a>
              </ul>
          </nav>
         </div>
@@ -35,7 +37,7 @@
                <i class="fas fa-map-marker-alt"></i> 
             </div>
             <form action="" class="barre-de-recherche">
-                   <input class="recherche" type="text" name="text" id="Recherche" placeholder="Marseille,France" ><input class="recherche-button" type="submit" name="submit" id="submit" value="Recherche">
+                   <input class="recherche" type="text" name="text" id="Recherche" placeholder="Marseille,France" ><input class="recherche-button" type="submit" name="submit" id="submit" value="Rechercher">
        
             </form>
         </div>
@@ -86,7 +88,7 @@
     <section>
         <div class="first-section">
             <div class="hebergement-marseille">
-                    <h2>Hébergement à Marseille</h2> 
+                    <h2 id="hebergement">Hébergement à Marseille</h2> 
                 <div class="premiere-line-hebergement">
                     <div class="card">
                           <div class="card-image-container">
@@ -100,9 +102,9 @@
                                           <i class="fas fa-star"></i>
                                           <i class="fas fa-star"></i>
                                           <i class="fas fa-star"></i>
-                                          <i class="far fa-star"></i>
+                                          <i class="fas fa-star empty-star"></i>
                                    </div>     
-                           
+                          
                     </div> <!--  div pour la card 1ere line--> 
                     
                     <div class="card">
@@ -116,10 +118,11 @@
                                                <i class="fas fa-star"></i>
                                                <i class="fas fa-star"></i>
                                                <i class="fas fa-star"></i>
-                                               <i class="fas fa-star"></i>
-                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i> 
+                                               <i class="fas fa-star"></i> 
+                                                 
                                    </div>
-                           
+                            
                     </div> <!--  div pour la card 1ere line--> 
 
                     <div class="card">
@@ -134,7 +137,7 @@
                                                   <i class="fas fa-star"></i>
                                                   <i class="fas fa-star"></i>
                                                   <i class="fas fa-star"></i>
-                                                  <i class="far fa-star"></i>
+                                                  <i class="fas fa-star empty-star"></i>
                                     </div> 
                            
                    </div> <!--  div pour la card 1ere line-->  
@@ -153,8 +156,8 @@
                                            <i class="fas fa-star"></i>
                                            <i class="fas fa-star"></i>
                                            <i class="fas fa-star"></i>
-                                           <i class="far fa-star"></i>
-                                           <i class="far fa-star"></i>
+                                           <i class="fas fa-star empty-star"></i>
+                                           <i class="fas fa-star empty-star"></i>
                                 </div>
                         
                     </div><!--  div pour la card 2e line-->
@@ -171,7 +174,7 @@
                                        <i class="fas fa-star"></i>
                                        <i class="fas fa-star"></i>
                                        <i class="fas fa-star"></i>
-                                       <i class="far fa-star"></i>
+                                       <i class="fas fa-star empty-star"></i>
                                 </div>    
                         
                     </div><!--  div pour la card 2e line-->
@@ -224,7 +227,7 @@
 
                 <div class="les-plus-populaires-item">
                     <div class="les-plus-populaires-img" >
-                        <img src="img/aw-creative.jpg"alt="hotel-au-coeur-de-l'eau" class="les-plus-populaires">
+                        <img src="img/aw-creative.jpg" alt="hotel-au-coeur-de-l'eau" class="les-plus-populaires">
                     </div>  
                     <div class="les-plus-populaires-details">
                          <h4 class="h4">Au coeur de l'eau chambre d'hotes</h4>
@@ -235,7 +238,7 @@
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
-                          <i class="far fa-star"></i>
+                          <i class="fas fa-star empty-star"></i>
                       </div> 
                     </div>   
                 </div>
@@ -253,7 +256,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <i class="fas fa-star empty-star"></i>
                         </div> 
                     </div>     
                 </div> 
@@ -266,7 +269,7 @@
       
         <section class="second-section">
             <div class="activités">
-                <h2>Activités à Marseille</h2>
+                <h2 id="activites-a-marseille">Activités à Marseille</h2>
              </div>
 
             <div class="second-section-group">
@@ -307,16 +310,16 @@
                     </div> 
                     
                         <div class="premier-aside">
-                            <div class="aside">
-                                <div class="container-img-aside">
-                                  <img src="img/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="img-aside"  alt="Notre-dame">
+                            <div class="aside2">
+                                <div class="container-img-aside2">
+                                  <img src="img/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="img-aside2"  alt="Notre-dame">
                                  </div>
                                <h4 class="img-title">Notre dame-de-la-garde </h4>
                             </div>
 
-                            <div  class="aside2">
-                              <div class="container-img-aside2"> 
-                                <img src="img/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="img-aside2" alt="Longchamps"> 
+                            <div  class="aside">
+                              <div class="container-img-aside"> 
+                                <img src="img/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="img-aside" alt="Longchamps"> 
                               </div>
                               <h4 class="img-title" >Parc alongchamps</h4>  
                             </div> 
