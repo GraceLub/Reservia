@@ -58,11 +58,9 @@ nav {
 }
 .phrase-introductive {
   font-size: 18px;
-  /*margin-left: 20px;*/
 }
 /*Pour les button*/
 .container {
-  /*margin-left: 20px;*/
   display: flex;
   padding: 20px 0px 20px 0px;
   border-radius: 5px;
@@ -76,7 +74,6 @@ nav {
   text-align: center;
   width: 7%;
   border-radius: 10px 0px 0px 10px;
-  /* padding-top:25px ;*/
 }
 .barre-de-recherche {
   display: flex;
@@ -96,7 +93,6 @@ nav {
 }
 .recherche-button {
   background-color: #0065fc;
-  /*text-align: center;*/
   color: #ffff;
   font-size: 16px;
   height: 40px;
@@ -108,7 +104,6 @@ nav {
 /* Pour les filtres*/
 .filtre-group {
   display: flex;
-  /*margin-left: 20px;*/
   margin: 20px 0px 20px 0px;
 }
 .filtre {
@@ -135,7 +130,6 @@ nav {
   transition: all 0.3s ease ease-out;
 }
 .wrapper-filtre .button /*:hover*/ {
-  /* width: 18%;*/
   width: 17%;
   border: 3px solid#f2f2f2;
   margin-right: 25px;
@@ -149,7 +143,6 @@ nav {
   background-color: #deebff;
   display: flex;
   width: 19%;
-  /*height:50px;*/
   border-radius: 50px;
   align-items: center;
   padding: 10px;
@@ -171,8 +164,6 @@ nav {
 .wrapper-filtre .button .icon i {
   font-size: 20px;
   line-height: 60px;
-  /* background:#DEEBFF ;
-  border-radius: 100px;*/
 }
 .wrapper-filtre .button span {
   font-size: 18px;
@@ -205,7 +196,6 @@ section,
 .first-section {
   display: flex;
   width: 100%;
-  /* margin-right: 20px;*/
 }
 .hebergement-marseille {
   padding: 30px 20px 0px 30px;
@@ -213,7 +203,6 @@ section,
   width: 75%;
   border-radius: 20px;
   margin: 0px 50px 0px 0px;
-  /* height: 480px;*/
   height: 780px;
 }
 .premiere-line-hebergement {
@@ -228,12 +217,10 @@ section,
 }
 .card {
   background-color: #fff;
-  /* width: 180px;*/
   margin: 0px 20px 0px 0px;
   padding: 5px;
   border-radius: 15px;
   font-size: 10px;
-  /* height:160px;*/
   height: 294px;
   width: 34%;
 }
@@ -243,10 +230,8 @@ section,
   height: 294px;
 }
 .card-image-container {
-  /*height:100px*/
   height: 200px;
   width: 100%;
-  /* background-color:red ; */
 }
 
 .card-image {
@@ -254,8 +239,6 @@ section,
   width: 100%;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
-  /*padding-left: 3px;
-  padding-right:3px;*/
   width: 100%;
 }
 .heading {
@@ -302,8 +285,6 @@ sub {
 }
 /*  POUR LE 2ieme BLOCK "LES PLUS POPULAIRES*/
 .block-two {
-  /*height: 480px;pour small*/
-  /*height: 761px;*/
   height: 780px;
   background-color: #f2f2f2;
   padding: 30px 20px 20px 20px;
@@ -365,12 +346,6 @@ sub {
   font-size: 15px;
 }
 
-/*.article-one{
-  height: 50px;
-  width: 50%;
-  border: #ffff;
-  margin-bottom: 50px;
-}*/
 /*POUR LE DEUXIEME MAIN*/
 
 .activite {
@@ -484,55 +459,6 @@ a:hover {
 
 /*MEDIA QUERY*/
 
-/*.@media screen and (max-width: 480px) {
-  nav-group {
-    width: 100%;
-    height: 160px;
-  }
-  .group-un {
-    width: 50%;
-    height: 100px;
-  }
-  .logo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  nav {
-    width: 50%;
-    margin: 0;
-    padding: 0;
-    /*position: relative;
-    right: -155px;
-   }
-  /*.links{
-    display: flex;
-    flex-direction: column;
-    height: 80px;
-    padding: 0;
-  }
-  .link1 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 110px;
-  }
-  .nav-link {
-    width: auto;
-  }
-  .nav-link:hover {
-    border-bottom: 5px solid #0065fc;
-    border-top: none;
-    padding-top: 30px;
-  }
-  .link2 {
-    position: relative;
-    right: -100px;
-    padding-top: 45px;
-    margin-right: 20px;
-  }
-  .nav-link-register {
-    width: 50%;
-  }*/
 @media screen and (max-width: 480px) {
   header {
     padding: 30px 20px 20px 20px;
@@ -557,33 +483,33 @@ a:hover {
     margin: 0;
     padding: 0;
   }
-  .link1{
+  .link1 {
     padding-top: 95px;
     /*border-bottom: 5px solid #f2f2f2;*/
     margin-right: -9px;
   }
-  .nav-link:hover{
-      border-bottom: 5px solid #0065fc;
-      border-top: none;
-      padding: 20px 0px;
-      width: 100%;
-    } 
-  .link2{
+  .nav-link:hover {
+    border-bottom: 5px solid #0065fc;
+    border-top: none;
+    padding: 20px 0px;
+    width: 100%;
+  }
+  .link2 {
     padding-top: 24px;
   }
-  h2{
+  h2 {
     padding-bottom: 18px;
   }
-  .fa-search{
+  .fa-search {
     color: #fff;
   }
   .container {
     width: 210%;
   }
-  .filtre-group, .wrapper-filtre{
+  .filtre-group,
+  .wrapper-filtre {
     flex-direction: column;
     place-items: flex-start;
-    
   }
   .wrapper-filtre .button {
     width: 63%;
@@ -592,13 +518,13 @@ a:hover {
   .info {
     font-size: 18px;
     margin: 0px 0px 20px 0px;
-}
-.incon-info {
-  width: 12%;
+  }
+  .incon-info {
+    width: 12%;
     height: 32px;
     margin-right: 14px;
   }
-  .fa-info{
+  .fa-info {
     padding-top: 6px;
     font-size: 16px;
   }
@@ -634,7 +560,7 @@ a:hover {
     margin-bottom: 15px;
     box-shadow: 0px 5px 5px rgb(176, 176, 177);
   }
-  .card:hover{
+  .card:hover {
     height: 230px;
   }
   .card-image-container {
@@ -645,7 +571,7 @@ a:hover {
   .deuxieme-line-hebergement {
     flex-direction: column;
   }
-  
+
   section,
   .second-section {
     padding: 0px 0px;
@@ -695,67 +621,3 @@ a:hover {
     margin-bottom: 57px;
   }
 }
-
-/*.hebergement-marseille {
- 
-  background-color: #fff;
-  width: 75%;
-  border-radius: 20px;
-  margin: 0px 50px 0px 0px;
-   height: 480px; 
-  display: grid;
-    grid-template-columns: repeat(1,1fr);
-}
-.premiere-line-hebergement {
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  margin-bottom: 20px;
-  padding-top: 20px;
-  width: 50%;
-  gap:20px;
-  box-shadow: 0px 5px 5px rgb(176 176 177);
-}
-.card {
-  background-color: #fff;
-  /* width: 180px; 
-  margin: 0px 20px 0px 0px;
-  padding: 5px;
-  border-radius: 15px;
-  font-size: 10px;
-  /* height: 160px;
-  height: 294px;
-  width: 100%;
- } 
-}  
-/*. .nav-group{
-  display: block;
-  height: 0;
-  width: 50%;
-  margin-bottom: 0;
-  }
-  .group-un {
-    width: 38%;
-    height: 100px;
-  }
-  .links{
-    width: 100%;
-     background-color: blueviolet;
-  }
-
-  logo {
-    width: 100%;
-  }
-  nav {
-      width: 100%;
-  } */
-/*..footer{
-    width: 100%;
-    height: 500px;
-    background-color: #0065fc;
-    display: none;
-
-  }   
-  footer-one{
-    width: 100%;
-    background-color: rgb(146, 7, 7)29, 90, 90);
-  } */
