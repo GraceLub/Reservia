@@ -69,11 +69,11 @@ nav {
 
 .localisation-icon {
   background-color: #f2f2f2;
-  height: 40px;
-  padding-top: 7px;
+  height: 50px;
+  padding-top: 12px;
   text-align: center;
   width: 7%;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 15px 0px 0px 15px;
 }
 .barre-de-recherche {
   display: flex;
@@ -83,23 +83,35 @@ nav {
   color: #000;
 }
 .recherche {
-  height: 40px;
-  width: 25%;
+  /*height: 40px;*/
+  width: 30%;
   border: 1px solid #f2f2f2;
   font-weight: bold;
   color: #000;
   font-size: 18px;
   padding-left: 15px;
 }
-.recherche-button {
+.search-btn{
   background-color: #0065fc;
+  border: none;
+  width: 16%;
+  border-radius: 0px 10px 10px 0px;
+  /*height: 40px;*/
+}
+.search-label {
+  color: #ffff;
+  font-size: 16px;
+  /*background-color: #0065fc;
   color: #ffff;
   font-size: 16px;
   height: 40px;
   width: 15%;
   border: none;
   padding: 5px 5px 5px 5px;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 10px 0px;*/
+}
+.search-icon{
+  display: none;
 }
 /* Pour les filtres*/
 .filtre-group {
@@ -130,7 +142,7 @@ nav {
   transition: all 0.3s ease ease-out;
 }
 .wrapper-filtre .button /*:hover*/ {
-  width: 17%;
+  width: auto;
   border: 3px solid#f2f2f2;
   margin-right: 25px;
 }
@@ -142,7 +154,8 @@ nav {
   color: #0065fc;
   background-color: #deebff;
   display: flex;
-  width: 19%;
+  /*width: 19%;*/
+  width: auto;
   border-radius: 50px;
   align-items: center;
   padding: 10px;
@@ -167,11 +180,11 @@ nav {
 }
 .wrapper-filtre .button span {
   font-size: 18px;
-  width: 100%;
+  width: auto;
   font-weight: bold;
   /*line-height: 50px;
   margin-left: 30px;*/
-  padding-top: 15px;
+  padding: 13px 20px 0px 20px;
   text-align: center;
 }
 /* Pour l'incon information*/
@@ -316,6 +329,7 @@ sub {
 }
 .les-plus-populaires-item:hover {
   border: 5px solid #0065fc;
+  height: 180px;
 }
 .les-plus-populaires-img {
   height: 100%;
@@ -329,7 +343,7 @@ sub {
 }
 .les-plus-populaires-details {
   width: 60%;
-  padding: 15px 50px 0px 20px;
+  padding: 15px 30px 0px 20px;
 }
 .h4 {
   /*line-height: 15px;*/
@@ -341,7 +355,7 @@ sub {
   font-size: 15px;
 }
 .les-plus-populaires-star-icons {
-  padding: 30px 0px 0px 0px;
+  padding: 25px 0px 0px 0px;
   color: #0065fc;
   font-size: 15px;
 }
@@ -466,15 +480,15 @@ a:hover {
   .nav-group {
     width: 100%;
     height: 160px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .group-un {
-    width: 50%;
-    height: 86px;
+    width: 100%;
+    height: 52px;
     padding-top: 0;
   }
   .logo {
-    width: 100%;
+    width: 70%;
     height: 100%;
     object-fit: cover;
   }
@@ -484,9 +498,11 @@ a:hover {
     padding: 0;
   }
   .link1 {
-    padding-top: 95px;
-    /*border-bottom: 5px solid #f2f2f2;*/
+    padding-top: 77px;
+    border-bottom: 5px solid #f2f2f2;
     margin-right: -9px;
+    padding-bottom: 20px;
+ 
   }
   .nav-link:hover {
     border-bottom: 5px solid #0065fc;
@@ -495,7 +511,10 @@ a:hover {
     width: 100%;
   }
   .link2 {
-    padding-top: 24px;
+    padding-top: 0px;
+    width: auto;
+    padding-right: 0;
+    font-size: 17px;
   }
   h2 {
     padding-bottom: 18px;
@@ -504,16 +523,35 @@ a:hover {
     color: #fff;
   }
   .container {
-    width: 210%;
+    width: 100%;
   }
   .filtre-group,
   .wrapper-filtre {
     flex-direction: column;
     place-items: flex-start;
   }
+  .localisation-icon {
+    width: 16%;
+  }
+  .recherche {
+    width: 79%;
+  }
+  .search-btn{
+
+    width: 16%;
+    border-radius: 10px 10px 10px 10px;
+    /*height: 40px;*/
+  }
+  .search-label {
+    display: none;
+  }
   .wrapper-filtre .button {
-    width: 63%;
+    width: auto;
     margin-top: 18px;
+  }
+  .search-icon{
+    display: initial;
+    font-size: 16px;
   }
   .info {
     font-size: 18px;
@@ -536,6 +574,9 @@ a:hover {
   .block-two {
     width: 100%;
     border-radius: 0;
+  }
+  .les-plus-populaires-details {
+    padding: 15px 25px 0px 20px;
   }
   .hebergement-marseille {
     border-radius: 0;
