@@ -98,6 +98,11 @@ nav {
   border-radius: 0px 10px 10px 0px;
   /*height: 40px;*/
 }
+.search-btn:hover{
+   box-shadow: 1px 1px 1px 1px #000;
+   cursor: pointer;
+}
+
 .search-label {
   color: #ffff;
   font-size: 16px;
@@ -662,3 +667,87 @@ a:hover {
     margin-bottom: 57px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  
+  header{
+    padding: 0px 30px;
+  }
+  .group-un{
+    width: 50%;
+    height: ;
+  }
+  .logo{
+    width: auto;
+  }
+  nav {
+    margin: 20px 0px;
+}
+  .container{
+    width: 100%;
+  }
+  .info{
+    margin-bottom: 50px;
+  }
+  section, .second-section {
+    padding: 0px 30px;
+   }
+  .block-two{
+   /* display: flex;
+    flex-direction: row;
+    padding: 0;*/
+    width: 100%;
+    height: 433px;
+  
+  }
+  .title{
+    width: 100%;
+  }
+  .container-pour-3 {
+    padding: 0px;
+    display: flex;
+   }
+  .les-plus-populaires {
+    border-radius: 10px 10px 0px 0px;
+   }
+.les-plus-populaires-item{
+  margin-right: 20px;
+  height: 270px;
+  width: 100%; 
+  display: block;
+}
+.les-plus-populaires-item:hover {
+  border: 5px solid #0065fc;
+  height: 270px;
+}
+  .les-plus-populaires-details {
+    padding: 10px 0px 0px 20px;
+   width: 100%;
+  }
+  .les-plus-populaires-img {
+    height: 148px;
+    width: 100%;
+  }
+  .first-section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .hebergement-marseille{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .second-section-group{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .img-aside2{
+    object-position: initial;
+  }
+  .footer {
+    padding: 50px 20px 0px 30px;
+  }
+ .footer > * {
+      width: 100%;
+    }     
+}
+
