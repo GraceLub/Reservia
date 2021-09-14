@@ -764,10 +764,18 @@ a:hover {
     object-position: initial;
   }
   .footer {
-    padding: 50px 20px 0px 30px;
+    padding: 50px 20px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 69px;
   }
  .footer > * {
       width: 100%;
-    }     
+    } 
+  .footer-one,.footer-two,.footer-three{
+    margin-left: 40px;
+    margin-right: 0;
+  }    
 }
+
 
