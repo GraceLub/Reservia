@@ -742,6 +742,9 @@ a:hover {
     margin-right: 0;
     margin-left: 20px;
   }
+  .wrapper-filtre .button span {
+    padding: 13px 5px 0px 10px; 
+}
   .first-section {
     display: flex;
     flex-direction: column-reverse;
